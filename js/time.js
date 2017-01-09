@@ -75,3 +75,21 @@ function moveMinuteHands(containers) {
     }
   }, 60000);
 }
+
+/*
+ * Move the second containers
+ */
+function moveSecondHands() {
+  var containers = document.querySelectorAll('.seconds-container');
+  setInterval(function() {
+    for (var i = 0; i < containers.length; i++) {
+      if (containers[i].angle === undefined) {
+        containers[i].angle = 6;
+      } else {
+        containers[i].angle += 6;
+      }
+      containers[i].style.webkitTransform = 'rotateZ('+ containers[i].angle +'deg)';
+      containers[i].style.transform = 'rotateZ('+ containers[i].angle +'deg)';
+    }
+  }, 1000);
+}
