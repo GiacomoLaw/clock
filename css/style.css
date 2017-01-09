@@ -1,3 +1,7 @@
+body {
+  background-color: #fff;
+}
+
 .clock {
   border-radius: 50%;
   background: #fff url(/img/clock.svg) no-repeat center;
