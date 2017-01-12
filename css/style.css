@@ -54,7 +54,7 @@ body {
 }
 
 .seconds {
-  background: #000;
+  background: red;
   height: 45%;
   left: 49.5%;
   position: absolute;
