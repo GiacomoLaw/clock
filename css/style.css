@@ -35,7 +35,7 @@ body {
 
 .hours {
   background: #000;
-  height: 20%;
+  height: 10%;
   left: 48.75%;
   position: absolute;
   top: 30%;
@@ -45,7 +45,7 @@ body {
 
 .minutes {
   background: #000;
-  height: 40%;
+  height: 20%;
   left: 49%;
   position: absolute;
   top: 10%;
@@ -55,7 +55,7 @@ body {
 
 .seconds {
   background: red;
-  height: 45%;
+  height: 25%;
   left: 49.5%;
   position: absolute;
   top: 14%;
