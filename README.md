@@ -9,3 +9,5 @@ Uses:
 - Whenever you need a clock!
 
 Works on all devices, from a desktop to a phone.
+
+Enjoy!
