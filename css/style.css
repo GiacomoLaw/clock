@@ -115,3 +115,43 @@ z-index: 8;
     margin-top: -100px;
     margin-left: -200px;
 }
+
+/* ===================================================
+
+                  Sticky footer
+
+=================================================== */
+
+* {
+  margin: 0;
+  padding: 0;
+} 
+
+html, body {
+  height: 100%;
+}
+
+#wrap {
+  min-height: 100%;
+}
+
+#main {
+  overflow: auto;
+  padding-bottom: 180px; /* must be same height as the footer */
+}
+
+#footer {
+  position: relative;
+  margin-top: -180px; /* negative value of footer height */
+  height: 180px;
+  clear: both;
+} 
+
+/* Opera Fix thanks to Maleika (Kohoutec) */
+body:before {
+  content: "";
+  height: 100%;
+  float: left;
+  width: 0;
+  margin-top: -32767px;/* thank you Erik J - negate effect of float*/
+}
